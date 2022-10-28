@@ -1,0 +1,17 @@
+{
+    "name": "sandpear/validate-code",
+    "description": "validate code 是生成验证码图片的扩展。",
+    "type": "extension",
+    "keywords": ["extension","library","validate code"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.0",
+        "ext-mbstring": "*",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sandpear\\ValidateCode\\": "src/"
+        }
+    }
+}
